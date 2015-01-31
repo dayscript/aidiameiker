@@ -3,7 +3,7 @@
   font-family: $font-sans;
   color: white;
   margin-top: -8px;
-  margin-bottom: 15px;
+//  margin-bottom: 15px;
   h1{
     color: white;
     text-transform: uppercase;
@@ -34,5 +34,27 @@
     width: 100% !important;
     border-bottom: 5px solid $blue;
     margin-bottom: 10px;
+  }
+}
+body.front{
+  .featured3-wrapper{
+    background: $blue;
+    margin-bottom: 20px;
+    .l-featured3{
+      &::before{
+        content: " ";
+        height: 24px;
+        background: url("../images/backgrounds/welcome-block.jpg") repeat-x;
+        width: 100%;
+        position: absolute;
+      }
+      &::after{
+        content: " ";
+        height: 24px;
+        background: url("../images/backgrounds/welcome-block2.jpg") repeat-x;
+        width: 100%;
+        position: absolute;
+      }
+    }
   }
 }

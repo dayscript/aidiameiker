@@ -1,0 +1,35 @@
+.block-search{
+  margin-top: 50px;
+  input[type="text"]{
+    height: 30px;
+    font-size: 0.75rem;
+  }
+  button{
+    height: 30px;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    color: #999;
+    width: 60px;
+  }
+}
+
+.sharethis-buttons{
+  border-left: 5px solid $blue;
+  padding: 15px;
+  margin: 10px 0;
+}
+h2, h2.block-title{
+  font-family: $font-segoeuil;
+  color: $darkgray;
+  font-size: 2rem;
+}
+.block{
+  p{
+    font-family: $font-sans;
+    color: $text-gray;
+    font-size: 0.9rem;
+  }
+}
+.block-block-3{
+  margin-top: 20px;
+}

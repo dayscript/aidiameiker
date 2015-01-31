@@ -1,0 +1,158 @@
+.block-superfish-1{
+  ul.menu{
+    li{
+      a{
+        color: $text-dark;
+        text-transform: uppercase;
+        font-family: $font-segoeuil;
+        padding: 57px 5px 30px 15px;
+        margin: 0 10px;
+        &.active{
+          color: white;
+          background: url(../images/backgrounds/menu-left.png) no-repeat left bottom;
+          .sf-sub-indicator {
+            background: url('../../../libraries/superfish//images/arrows-ffffff.png') no-repeat -10px -100px;
+          }
+          &::after{
+            display: inline-block;
+            content: "";
+            width: 24px;
+            right: -24px;
+            position: absolute;
+            height: 103px;
+            bottom: 0px;
+            background: url(../images/backgrounds/menu-right.png) no-repeat right bottom;
+          }
+        }
+        .sf-sub-indicator{
+          background: url('../../../libraries/superfish/images/arrows-777777.png') no-repeat -10px -100px;
+          top: 60px;
+          right: 0px;
+        }
+      }
+      &.active-trail{
+        a{
+          color: white;
+          background: url(../images/backgrounds/menu-left.png) no-repeat left bottom;
+          .sf-sub-indicator {
+            background: url('../../../libraries/superfish//images/arrows-ffffff.png') no-repeat -10px -100px;
+          }
+          &::after{
+            display: inline-block;
+            content: "";
+            width: 24px;
+            right: -24px;
+            position: absolute;
+            height: 103px;
+            bottom: 0px;
+            background: url(../images/backgrounds/menu-right.png) no-repeat right bottom;
+          }
+        }
+        ul{
+          background: $darkergray;
+          li{
+            a{
+              background: none;
+              &::after{
+                display: none;
+              }
+            }
+          }
+        }
+      }
+      &.menuparent{
+        a{
+          padding: 57px 15px 30px 15px;
+        }
+        ul{
+          margin-top: 55px;
+          li{
+            a{
+              padding: 10px;
+              color: white;
+            }
+          }
+        }
+      }
+      ul{
+        li{
+          a{
+            padding: 10px;
+            &.active{
+              background: $blue;
+              &::after{
+                display: none;
+              }
+            }
+            &:hover{
+              background: $blue;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
+.menu-block-1{
+  ul.menu{
+
+    li{
+      list-style: none;
+      a{
+        font-family: $font-segoeuisl;
+        color: $text-dark;
+        border-bottom: 1px solid $line;
+        border-left: 8px solid $blue;
+        display: block;
+        padding: 5px 15px;
+        &.active,
+        &:hover{
+          color: $blue;
+        }
+      }
+      ul.menu{
+        li{
+          a{
+            border: none;
+            color: $text-gray;
+            font-size: 0.85rem;
+            padding: 10px 5px;
+          }
+        }
+      }
+    }
+  }
+}
+.menu-block-2{
+  margin-top: 20px;
+  ul.menu{
+    margin: 0;
+    li{
+      list-style: none;
+      float: left;
+      margin: 0 5px;
+      width: 130px;
+      a{
+        font-family: $font-segoeuisl;
+        color: white;
+        display: block;
+        &.active,
+        &:hover{
+          color: white;
+        }
+      }
+      ul.menu{
+        margin: 0;
+        li{
+          float: none;
+          a{
+            border: none;
+            color: $text-gray;
+            font-size: 0.85rem;
+          }
+        }
+      }
+    }
+  }
+}

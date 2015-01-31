@@ -1,0 +1,51 @@
+// Common abstract classes to extend or parametrics are stored here.
+
+// Example parametrics.
+// ------------------------------------------------------
+// %font-FONTNAME   {}
+// %font-sans-serif { font-family: sans-serif; }
+// %font-serif      { font-family: serif; }
+$darkgray: #58585a;
+$darkergray: #444;
+$text-gray: #999;
+$text-dark: #333;
+$font-sans: "Open Sans", sans-serif;
+$blue: #00a7de;
+$darkblue: #006180;
+$line: #ccc;
+
+@font-face {
+  font-family: "segoeui-light";
+  src: url("../fonts/segoeuil/segoeuil.eot");
+  src: url("../fonts/segoeuil/segoeuil.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/segoeuil/segoeuil.woff") format("woff"),
+  url("../fonts/segoeuil/segoeuil.ttf") format("truetype"),
+  url("../fonts/segoeuil/segoeuil.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+$font-segoeuil: "segoeui-light", "Open Sans", sans-serif;
+
+@font-face {
+  font-family: "segoeui-semilight";
+  src: url("../fonts/segoeuisl/segoeuisl.eot");
+  src: url("../fonts/segoeuisl/segoeuisl.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/segoeuisl/segoeuisl.woff") format("woff"),
+  url("../fonts/segoeuisl/segoeuisl.ttf") format("truetype"),
+  url("../fonts/segoeuisl/segoeuisl.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+$font-segoeuisl: "segoeui-semilight", "Open Sans", sans-serif;
+
+@font-face {
+  font-family: "impact";
+  src: url("../fonts/impact/Impact.eot");
+  src: url("../fonts/impact/Impact.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/impact/Impact.woff") format("woff"),
+  url("../fonts/impact/Impact.ttf") format("truetype"),
+  url("../fonts/impact/Impact.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+$font-impact: "impact", "Helvetica", sans-serif;

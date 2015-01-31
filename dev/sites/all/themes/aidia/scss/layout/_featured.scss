@@ -1,0 +1,38 @@
+.featured-wrapper {
+  background: $darkgray;
+  font-family: $font-sans;
+  color: white;
+  margin-top: -8px;
+  margin-bottom: 15px;
+  h1{
+    color: white;
+    text-transform: uppercase;
+    font-family: $font-impact;
+    margin: 15px 0px;
+    font-size: 2rem;
+  }
+  ul.breadcrumbs{
+    margin-top: 20px;
+    background: none;
+    border: none;
+    float: right;
+    li{
+      color: white;
+      a{
+        color: $text-gray;
+      }
+      &.current{
+        a{
+          color: white;
+        }
+      }
+    }
+  }
+}
+.featured3-wrapper{
+  #locationmap_map{
+    width: 100% !important;
+    border-bottom: 5px solid $blue;
+    margin-bottom: 10px;
+  }
+}

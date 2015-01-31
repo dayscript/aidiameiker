@@ -1,0 +1,14 @@
+// Non-modular or client styles for .l-footer region.
+.footer-wrapper{
+  background: $darkgray;
+  font-family: $font-sans;
+  .panel{
+    background: none;
+    color: $text-gray;
+    border: none;
+    p{
+      color: $text-gray;
+      font-size: 0.75rem;
+    }
+  }
+}

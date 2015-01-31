@@ -1,0 +1,5 @@
+name = Ventana de login personalizada
+description = Crea un bloque con la ventana de login
+package = Dayscript
+core = 7.x
+

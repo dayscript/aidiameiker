@@ -1,0 +1,32 @@
+.node-page{
+  .body{
+    font-family: $font-sans;
+    font-weight: 300;
+    color: $darkgray;
+    p{
+      font-size: 0.85rem;
+      strong{
+        color: $darkblue;
+        font-size: 0.9rem;
+        //font-family: $font-impact;
+      }
+    }
+  }
+  .image{
+    border-top: 5px solid $blue;
+    margin-bottom: 25px;
+  }
+}
+.node-webform{
+  .form-item{
+    margin: 0;
+  }
+  .webform-submit{
+    background-color: $blue;
+    color: white;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 47%;
+  }
+}
